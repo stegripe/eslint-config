@@ -1,6 +1,6 @@
 {
     "name": "@clytage-pkg/eslint-config",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "An ESLint shareable configuration that used in our projects.",
     "keywords": [
         "typescript",
