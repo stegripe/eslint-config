@@ -1,0 +1,50 @@
+{
+    "name": "@clytage/eslint-config",
+    "version": "1.0.0",
+    "description": "An ESLint shareable configuration that used in our projects.",
+    "keywords": [
+        "typescript",
+        "eslintconfig",
+        "lint",
+        "linter",
+        "eslint",
+        "typecript-eslint",
+        "eslint-config",
+        "tslint"
+    ],
+    "repository": "https://github.com/Clytage/eslint-config",
+    "license": "MIT",
+    "author": "Clytage <admin@clytage.org>",
+    "main": "index.js",
+    "scripts": {
+        "lint": "eslint --ignore-path .gitignore .",
+        "lint:fix": "eslint --ignore-path .gitignore . --fix"
+    },
+    "eslintConfig": {
+        "extends": "./index.js"
+    },
+    "devDependencies": {
+        "@types/node": "^17.0.23",
+        "@typescript-eslint/eslint-plugin": ">=5.18.0",
+        "@typescript-eslint/parser": ">=5.18.0",
+        "eslint": ">=8.13.0",
+        "typescript": ">=3.3.1 <4.7.0"
+    },
+    "peerDependencies": {
+        "@typescript-eslint/eslint-plugin": ">=5.18.0",
+        "@typescript-eslint/parser": ">=5.18.0",
+        "eslint": ">=8.13.0",
+        "typescript": ">=3.3.1 <4.7.0"
+    },
+    "peerDependenciesMeta": {
+        "@typescript-eslint/eslint-plugin": {
+            "optional": true
+        },
+        "@typescript-eslint/parser": {
+            "optional": true
+        },
+        "typescript": {
+            "optional": true
+        }
+    }
+}
