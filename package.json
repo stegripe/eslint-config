@@ -14,7 +14,7 @@
     ],
     "repository": "https://github.com/Clytage/eslint-config",
     "license": "MIT",
-    "author": "Clytage <admin@clytage-pkg.org>",
+    "author": "Clytage <admin@clytage.org>",
     "main": "index.js",
     "scripts": {
         "lint": "eslint --ignore-path .gitignore .",
