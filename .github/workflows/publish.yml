@@ -1,4 +1,4 @@
-name: Publish package to NPM & GitHub registry
+name: Publish package to NPM and GitHub registry
 
 on:
   release:
@@ -16,12 +16,12 @@ jobs:
             token_secret_key: GITHUB_TOKEN
     steps:
       - name: Checkout repository
-        uses: actions/checkout@2541b1294d2704b0964813337f33b291d3f8596b # tag=v3.0.2
+        uses: actions/checkout@v3
       - name: Setup Node.js
-        uses: actions/setup-node@56337c425554a6be30cdef71bf441f15be286854 # tag=v3.1.1
+        uses: actions/setup-node@v3.1.1
         with:
           node-version-file: .node-version
-          cache: 'npm'
+          cache: "npm"
           check-latest: true
           registry-url: ${{ matrix.registry }}
       # - name: Build TypeScript project

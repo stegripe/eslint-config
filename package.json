@@ -1,25 +1,32 @@
 {
-    "name": "@clytage-pkg/eslint-config",
+    "name": "eslint-config",
     "version": "1.0.1",
     "description": "An ESLint shareable configuration that used in our projects.",
-    "keywords": [
-        "typescript",
-        "eslintconfig",
-        "lint",
-        "linter",
-        "eslint",
-        "typecript-eslint",
-        "eslint-config",
-        "tslint"
-    ],
-    "repository": "https://github.com/Clytage/eslint-config",
-    "license": "MIT",
-    "author": "Clytage <admin@clytage.org>",
     "main": "index.js",
     "scripts": {
         "lint": "eslint --ignore-path .gitignore .",
         "lint:fix": "eslint --ignore-path .gitignore . --fix"
     },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Clytage/eslint-config.git"
+    },
+    "keywords": [
+        "eslint",
+        "eslintconfig",
+        "eslint-config",
+        "lint",
+        "linter",
+        "tslint",
+        "typescript",
+        "typecript-eslint"
+    ],
+    "author": "Clytage <support@clytage.org>",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/Clytage/eslint-config/issues"
+    },
+    "homepage": "https://github.com/Clytage/eslint-config#readme",
     "eslintConfig": {
         "extends": "./index.js"
     },
@@ -31,8 +38,8 @@
         "typescript": "4.6.4"
     },
     "peerDependencies": {
-        "@typescript-eslint/eslint-plugin": ">=5.23.0",
-        "@typescript-eslint/parser": ">=5.23.0",
+        "@typescript-eslint/eslint-plugin": ">=5.18.0",
+        "@typescript-eslint/parser": ">=5.18.0",
         "eslint": ">=8.15.0",
         "typescript": ">=3.3.1 <4.7.0"
     },
