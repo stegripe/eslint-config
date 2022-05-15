@@ -1,6 +1,6 @@
 {
-    "name": "eslint-config",
-    "version": "1.0.1",
+    "name": "@clytage-pkg/eslint-config",
+    "version": "1.0.2",
     "description": "An ESLint shareable configuration that used in our projects.",
     "main": "index.js",
     "scripts": {
