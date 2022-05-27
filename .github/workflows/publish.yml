@@ -12,8 +12,8 @@ jobs:
         include:
           - registry: https://registry.npmjs.org/
             token_secret_key: NPM_TOKEN
-          - registry: https://npm.pkg.github.com/
-            token_secret_key: GITHUB_TOKEN
+          # - registry: https://npm.pkg.github.com/
+          #   token_secret_key: GITHUB_TOKEN
     steps:
       - name: Checkout repository
         uses: actions/checkout@v3
