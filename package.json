@@ -19,7 +19,7 @@
         "linter",
         "tslint",
         "typescript",
-        "typecript-eslint"
+        "typescript-eslint"
     ],
     "author": "Clytage <support@clytage.org>",
     "license": "MIT",
