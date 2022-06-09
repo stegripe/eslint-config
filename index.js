@@ -72,7 +72,7 @@ module.exports = {
         "max-params": ["warn", {
             max: 6
         }],
-        "multiline-comment-style": ["warn", "starred-block"],
+        "multiline-comment-style": ["warn", "bare-block"],
         "no-alert": "warn",
         "no-array-constructor": "warn",
         "no-caller": "error",
