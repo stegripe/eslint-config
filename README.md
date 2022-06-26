@@ -10,14 +10,14 @@
 ```bash
 npm install -D @clytage-pkg/eslint-config
 ```
-or with yarn
+or with Yarn
 ```bash
 yarn add -D @clytage-pkg/eslint-config
 ```
 
 ## Usage
 
-ESLint guide: [link](https://eslint.org/docs/user-guide/configuring#using-a-shareable-configuration-package)
+[Click here](https://eslint.org/docs/user-guide/configuring#using-a-shareable-configuration-package) for more details about ESLint guide.
 
 Example:
 ```json
@@ -25,22 +25,29 @@ Example:
     "extends": "@clytage-pkg/eslint-config"
 }
 ```
-or `"@clytage-pkg/eslint-config/node"` for Node environment
+or `"@clytage-pkg/eslint-config/node"` if you're on Node environment.
 
 
-Example (TS):
+Example (TypeScript):
 ```json
 {
-    "extends": "@clytage-pkg/eslint-config/typescript"
+    "extends": "@clytage-pkg/eslint-config/typescript",
+    "parserOptions": {
+      "project": "./tsconfig.json"
+    },
+    "ignorePatterns": [
+      "dist/**",
+      "node_modules/**"
+    ]
 }
 ```
-or `"@clytage-pkg/eslint-config/typescript/node"` for Node environment
+or `"@clytage-pkg/eslint-config/typescript/node"` if you're on Node environment.
 
 ## Note
 
-Requires [ESLint](https://npmjs.com/package/eslint) version 8.17.0 or above
+This package is requires [ESLint](https://npmjs.com/package/eslint) version `8.17.0` or above.
 
 TypeScript config requires:
- * [@typescript-eslint/parser](https://npmjs.com/package/@typescript-eslint/parser) version 5.27.0 or above
- * [@typescript-eslint/eslint-plugin](https://npmjs.com/package/@typescript-eslint/eslint-plugin) version 5.27.0 or above
- * [typescript](https://npmjs.com/package/typescript) version 3.3.1 to 4.7.4
+ * [@typescript-eslint/eslint-plugin](https://npmjs.com/package/@typescript-eslint/eslint-plugin) version `5.27.0` or above.
+ * [@typescript-eslint/parser](https://npmjs.com/package/@typescript-eslint/parser) version `5.27.0` or above.
+ * [typescript](https://npmjs.com/package/typescript) version `3.3.1` to `4.7.4` ranged.
