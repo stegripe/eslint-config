@@ -222,7 +222,8 @@ module.exports = {
         }],
         "no-extra-parens": ["warn", "all", {
             nestedBinaryExpressions: false,
-            enforceForArrowConditionals: false
+            enforceForArrowConditionals: false,
+            enforceForNewInMemberExpressions: false
         }],
         "no-mixed-spaces-and-tabs": ["error", "smart-tabs"],
         "no-multi-spaces": ["error", {
