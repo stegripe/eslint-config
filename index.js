@@ -221,7 +221,8 @@ module.exports = {
             ignoreChainWithDepth: 3
         }],
         "no-extra-parens": ["warn", "all", {
-            nestedBinaryExpressions: false
+            nestedBinaryExpressions: false,
+            enforceForArrowConditionals: false
         }],
         "no-mixed-spaces-and-tabs": ["error", "smart-tabs"],
         "no-multi-spaces": ["error", {
