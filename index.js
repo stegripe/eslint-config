@@ -110,8 +110,8 @@ module.exports = {
         "no-script-url": "warn",
         "no-sequences": "error",
         "no-shadow": ["error", {
-            ignoreOnInitialization: true,
-            allow: ["resolve", "reject", "done", "cb"]
+            allow: ["resolve", "reject", "done", "cb"],
+            ignoreOnInitialization: true
         }],
         "no-throw-literal": "error",
         "no-undef-init": "warn",
@@ -154,20 +154,20 @@ module.exports = {
         // Layout & Formatting
         "array-bracket-newline": ["warn", "consistent"],
         "array-bracket-spacing": ["warn", "never", {
-            singleValue: false,
+            arraysInArrays: false,
             objectsInArrays: false,
-            arraysInArrays: false
+            singleValue: false
         }],
         "array-element-newline": ["warn", "consistent", {
-            multiline: true,
-            minItems: 6
+            minItems: 6,
+            multiline: true
         }],
         "arrow-parens": ["warn", "as-needed", {
             requireForBlockBody: false
         }],
         "arrow-spacing": ["warn", {
-            before: true,
-            after: true
+            after: true,
+            before: true
         }],
         "block-spacing": ["warn", "always"],
         "brace-style": ["warn", "1tbs", {
@@ -175,8 +175,8 @@ module.exports = {
         }],
         "comma-dangle": ["warn", "never"],
         "comma-spacing": ["warn", {
-            before: false,
-            after: true
+            after: true,
+            before: false
         }],
         "comma-style": ["warn", "last"],
         "computed-property-spacing": ["warn", "never"],
@@ -192,13 +192,13 @@ module.exports = {
         }],
         "jsx-quotes": ["warn", "prefer-double"],
         "key-spacing": ["warn", {
-            beforeColon: false,
             afterColon: true,
+            beforeColon: false,
             mode: "strict"
         }],
         "keyword-spacing": ["warn", {
-            before: true,
-            after: true
+            after: true,
+            before: true
         }],
         "linebreak-style": ["error", "unix"],
         "lines-between-class-members": ["warn", "always", {
@@ -207,10 +207,10 @@ module.exports = {
         "max-len": ["warn", {
             code: 180,
             tabWidth: 4,
-            ignoreUrls: true,
+            ignoreRegExpLiterals: true,
             ignoreStrings: true,
             ignoreTemplateLiterals: true,
-            ignoreRegExpLiterals: true
+            ignoreUrls: true
         }],
         "max-statements-per-line": ["warn", {
             max: 3
@@ -221,9 +221,9 @@ module.exports = {
             ignoreChainWithDepth: 3
         }],
         "no-extra-parens": ["warn", "all", {
-            nestedBinaryExpressions: false,
             enforceForArrowConditionals: false,
-            enforceForNewInMemberExpressions: false
+            enforceForNewInMemberExpressions: false,
+            nestedBinaryExpressions: false
         }],
         "no-mixed-spaces-and-tabs": ["error", "smart-tabs"],
         "no-multi-spaces": ["error", {
@@ -234,8 +234,8 @@ module.exports = {
         "no-whitespace-before-property": "error",
         "nonblock-statement-body-position": ["warn", "beside"],
         "object-curly-newline": ["warn", {
-            multiline: true,
-            consistent: true
+            consistent: true,
+            multiline: true
         }],
         "object-curly-spacing": ["error", "always"],
         "object-property-newline": ["warn", {
@@ -250,31 +250,31 @@ module.exports = {
         "padded-blocks": ["error", "never"],
         "padding-line-between-statements": "warn",
         quotes: ["warn", "double", {
-            avoidEscape: true,
-            allowTemplateLiterals: false
+            allowTemplateLiterals: false,
+            avoidEscape: true
         }],
         "rest-spread-spacing": ["error", "never"],
         semi: ["error", "always", {
             omitLastInOneLineBlock: false
         }],
         "semi-spacing": ["error", {
-            before: false,
-            after: true
+            after: true,
+            before: false
         }],
         "semi-style": ["error", "last"],
         "space-before-blocks": ["warn", "always"],
         "space-before-function-paren": ["warn", {
             anonymous: "always",
-            named: "never",
-            asyncArrow: "always"
+            asyncArrow: "always",
+            named: "never"
         }],
         "space-in-parens": ["warn", "never"],
         "space-infix-ops": ["warn", {
             int32Hint: true
         }],
         "space-unary-ops": ["warn", {
-            words: true,
-            nonwords: false
+            nonwords: false,
+            words: true
         }],
         "switch-colon-spacing": ["error", {
             after: true,
