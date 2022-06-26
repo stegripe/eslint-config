@@ -2,6 +2,6 @@
     "eslint.packageManager": "npm",
     "files.eol": "\n",
     "npm.packageManager": "npm",
-    "typescript.tsdk": "node_modules/typescript/lib",
-    "typescript.preferences.importModuleSpecifierEnding": "js"
+    "typescript.preferences.importModuleSpecifierEnding": "js",
+    "typescript.tsdk": "node_modules/typescript/lib"
 }
