@@ -121,13 +121,13 @@ let rules = {
     "no-type-alias": [
         "warn", {
             allowAliases: "in-unions-and-intersections",
+            allowCallbacks: "always",
             allowConditionalTypes: "always",
             allowConstructors: "always",
-            allowMappedTypes: "never",
-            allowTupleTypes: "in-unions-and-intersections",
             allowGenerics: "always",
-            allowCallbacks: "always",
-            allowLiterals: "in-unions-and-intersections"
+            allowLiterals: "in-unions-and-intersections",
+            allowMappedTypes: "never",
+            allowTupleTypes: "in-unions-and-intersections"
         }
     ],
     "no-unnecessary-boolean-literal-compare": "error",
@@ -221,20 +221,20 @@ rules = {
     "@typescript-eslint/naming-convention": [
         "error",
         {
-            selector: "default",
             format: ["camelCase", "PascalCase"],
             leadingUnderscore: "allow",
+            selector: "default",
             trailingUnderscore: "forbid"
         },
         {
-            selector: "variable",
             format: null,
-            modifiers: ["destructured"]
+            modifiers: ["destructured"],
+            selector: "variable"
         },
         {
-            selector: "default",
             format: null,
-            modifiers: ["requiresQuotes"]
+            modifiers: ["requiresQuotes"],
+            selector: "default"
         }
     ]
 };
