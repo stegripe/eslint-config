@@ -1,5 +1,5 @@
 # eslint-config
-> An ESLint [shareable configuration](http://eslint.org/docs/developer-guide/shareable-configs.html) that used in our projects.
+> An ESLint [shareable configuration](http://eslint.org/docs/developer-guide/shareable-configs.html) that we used for our projects.
 
 <div align="center">
 <a href="https://www.npmjs.com/package/@clytage-pkg/eslint-config"><img src="https://img.shields.io/npm/v/@clytage-pkg/eslint-config?maxAge=3600" alt="NPM version" ><a/>

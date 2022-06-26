@@ -1,7 +1,7 @@
 {
     "name": "@clytage-pkg/eslint-config",
     "version": "1.2.0",
-    "description": "An ESLint shareable configuration that used in our projects.",
+    "description": "An ESLint shareable configuration that we used for our projects.",
     "main": "index.js",
     "scripts": {
         "lint": "eslint --ignore-path .gitignore .",
