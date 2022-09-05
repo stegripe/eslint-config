@@ -32,14 +32,14 @@
     },
     "devDependencies": {
         "@types/node": "*",
-        "@typescript-eslint/eslint-plugin": ">=5.36.1",
-        "@typescript-eslint/parser": ">=5.36.1",
+        "@typescript-eslint/eslint-plugin": ">=5.36.2",
+        "@typescript-eslint/parser": ">=5.36.2",
         "eslint": ">=8.23.0",
         "typescript": ">=3.3.1 <4.8.3"
     },
     "peerDependencies": {
-        "@typescript-eslint/eslint-plugin": ">=5.36.1",
-        "@typescript-eslint/parser": ">=5.36.1",
+        "@typescript-eslint/eslint-plugin": ">=5.36.2",
+        "@typescript-eslint/parser": ">=5.36.2",
         "eslint": ">=8.23.0",
         "typescript": ">=3.3.1 <4.8.3"
     },
