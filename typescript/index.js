@@ -11,6 +11,7 @@ let rules = {
         minimumDescriptionLength: 5
     }],
     "ban-tslint-comment": "error",
+    "consistent-generic-constructors": ["warn", "constructor"],
     "consistent-indexed-object-style": ["error", "record"],
     "consistent-type-assertions": ["error", {
         assertionStyle: "as",
