@@ -48,6 +48,6 @@ or `"@clytage-pkg/eslint-config/typescript/node"` if you're on Node environment.
 This package is requires [ESLint](https://npmjs.com/package/eslint) version `8.28.0` or above.
 
 TypeScript config requires:
- * [@typescript-eslint/eslint-plugin](https://npmjs.com/package/@typescript-eslint/eslint-plugin) version `5.38.0` or above.
- * [@typescript-eslint/parser](https://npmjs.com/package/@typescript-eslint/parser) version `5.38.0` or above.
- * [typescript](https://npmjs.com/package/typescript) version `3.3.1` to `4.9.0` (ranged).
+ * [@typescript-eslint/eslint-plugin](https://npmjs.com/package/@typescript-eslint/eslint-plugin) version `5.44.0` or above.
+ * [@typescript-eslint/parser](https://npmjs.com/package/@typescript-eslint/parser) version `5.44.0` or above.
+ * [typescript](https://npmjs.com/package/typescript) version `3.3.1` to `5.0.0` (ranged).
