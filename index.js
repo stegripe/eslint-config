@@ -56,6 +56,7 @@ module.exports = {
         }],
         "grouped-accessor-pairs": ["warn", "getBeforeSet"],
         "guard-for-in": "warn",
+        "logical-assignment-operators": ["warn", "always"],
         "max-classes-per-file": ["error", {
             max: 3
         }],
