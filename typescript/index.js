@@ -26,7 +26,9 @@ let rules = {
         prefer: "no-type-imports"
     }],
     "explicit-function-return-type": ["error", {
-        allowExpressions: true
+        allowExpressions: true,
+        allowTypedFunctionExpressions: true,
+        allowDirectConstAssertionInArrowFunctions: true
     }],
     "explicit-member-accessibility": ["warn", {
         accessibility: "explicit"
