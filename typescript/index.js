@@ -122,6 +122,7 @@ let rules = {
     "no-misused-promises": ["warn", {
         checksVoidReturn: false
     }],
+    "no-mixed-enums": "warn",
     "no-non-null-asserted-nullish-coalescing": "warn",
     "no-non-null-asserted-optional-chain": "warn",
     "no-non-null-assertion": "off",
