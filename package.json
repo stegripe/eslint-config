@@ -31,6 +31,7 @@
         "extends": "./index.js"
     },
     "devDependencies": {
+        "@eslint/js": "^8.38.0",
         "@types/node": "*",
         "@typescript-eslint/eslint-plugin": ">=5.57.1",
         "@typescript-eslint/parser": ">=5.57.1",
@@ -38,6 +39,7 @@
         "typescript": ">=3.3.1 <6.0.0"
     },
     "peerDependencies": {
+        "@eslint/js": "^8.38.0",
         "@typescript-eslint/eslint-plugin": ">=5.57.1",
         "@typescript-eslint/parser": ">=5.57.1",
         "eslint": ">=8.37.0",
