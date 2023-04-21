@@ -31,18 +31,18 @@
         "extends": "./index.js"
     },
     "devDependencies": {
-        "@eslint/js": "^8.38.0",
+        "@eslint/js": "^8.39.0",
         "@types/node": "*",
         "@typescript-eslint/eslint-plugin": ">=5.59.0",
         "@typescript-eslint/parser": ">=5.59.0",
-        "eslint": ">=8.38.0",
+        "eslint": ">=8.39.0",
         "typescript": ">=3.3.1 <6.0.0"
     },
     "peerDependencies": {
-        "@eslint/js": "^8.38.0",
+        "@eslint/js": "^8.39.0",
         "@typescript-eslint/eslint-plugin": ">=5.59.0",
         "@typescript-eslint/parser": ">=5.59.0",
-        "eslint": ">=8.38.0",
+        "eslint": ">=8.39.0",
         "typescript": ">=3.3.1 <6.0.0"
     },
     "peerDependenciesMeta": {
