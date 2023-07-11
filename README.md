@@ -2,17 +2,17 @@
 > An ESLint [shareable configuration](http://eslint.org/docs/developer-guide/shareable-configs.html) that we used for our projects.
 
 <div align="center">
-<a href="https://www.npmjs.com/package/@clytage-pkg/eslint-config"><img src="https://img.shields.io/npm/v/@clytage-pkg/eslint-config?maxAge=3600" alt="NPM version" ><a/>
+<a href="https://www.npmjs.com/package/@clytage/eslint-config"><img src="https://img.shields.io/npm/v/@clytage/eslint-config?maxAge=3600" alt="NPM version" ><a/>
 </div>
 
 ## Install
 
 ```bash
-npm install -D @clytage-pkg/eslint-config
+npm install -D @clytage/eslint-config
 ```
 or with Yarn
 ```bash
-yarn add -D @clytage-pkg/eslint-config
+yarn add -D @clytage/eslint-config
 ```
 
 ## Usage
@@ -22,16 +22,16 @@ yarn add -D @clytage-pkg/eslint-config
 Example:
 ```json
 {
-    "extends": "@clytage-pkg/eslint-config"
+    "extends": "@clytage/eslint-config"
 }
 ```
-or `"@clytage-pkg/eslint-config/node"` if you're on Node environment.
+or `"@clytage/eslint-config/node"` if you're on Node environment.
 
 
 Example (TypeScript):
 ```json
 {
-    "extends": "@clytage-pkg/eslint-config/typescript",
+    "extends": "@clytage/eslint-config/typescript",
     "parserOptions": {
       "project": "./tsconfig.json"
     },
@@ -41,7 +41,7 @@ Example (TypeScript):
     ]
 }
 ```
-or `"@clytage-pkg/eslint-config/typescript/node"` if you're on Node environment.
+or `"@clytage/eslint-config/typescript/node"` if you're on Node environment.
 
 ## Note
 
