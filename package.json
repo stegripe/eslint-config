@@ -21,7 +21,7 @@
         "typescript",
         "typescript-eslint"
     ],
-    "author": "Clytage <support@clytage.org>",
+    "author": "Clytage <admin@clytage.org>",
     "license": "BSD-3-Clause",
     "bugs": {
         "url": "https://github.com/clytage/eslint-config/issues"
