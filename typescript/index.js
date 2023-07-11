@@ -170,7 +170,7 @@ let rules = {
         allowBoolean: true,
         allowNumber: true
     }],
-    "sort-type-union-intersection-members": "warn",
+    "sort-type-constituents": "warn",
     "switch-exhaustiveness-check": "error",
     "type-annotation-spacing": "warn",
     "unified-signatures": "warn",
@@ -192,7 +192,6 @@ let extensionRules = {
     "lines-between-class-members": "infer",
     "no-array-constructor": "infer",
     "no-dupe-class-members": "infer",
-    "no-duplicate-imports": "infer",
     "no-empty-function": "infer",
     "no-extra-parens": "infer",
     "no-extra-semi": "infer",
