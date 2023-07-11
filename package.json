@@ -1,6 +1,6 @@
 {
     "name": "@clytage/eslint-config",
-    "version": "3.0.0",
+    "version": "3.0.1",
     "description": "An ESLint shareable configuration that we used for our projects.",
     "main": "index.js",
     "scripts": {
