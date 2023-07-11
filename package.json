@@ -23,7 +23,7 @@
         "typescript-eslint"
     ],
     "author": "Clytage <admin@clytage.org>",
-    "license": "BSD-3-Clause",
+    "license": "AGPL-3.0",
     "bugs": {
         "url": "https://github.com/clytage/eslint-config/issues"
     },
