@@ -9,7 +9,7 @@
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/Clytage/eslint-config.git"
+        "url": "git+https://github.com/clytage/eslint-config.git"
     },
     "keywords": [
         "eslint",
@@ -24,9 +24,9 @@
     "author": "Clytage <support@clytage.org>",
     "license": "BSD-3-Clause",
     "bugs": {
-        "url": "https://github.com/Clytage/eslint-config/issues"
+        "url": "https://github.com/clytage/eslint-config/issues"
     },
-    "homepage": "https://github.com/Clytage/eslint-config#readme",
+    "homepage": "https://github.com/clytage/eslint-config#readme",
     "eslintConfig": {
         "extends": "./index.js"
     },
