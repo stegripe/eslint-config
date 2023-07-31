@@ -32,18 +32,18 @@
         "extends": "./index.js"
     },
     "devDependencies": {
-        "@eslint/js": "^8.45.0",
+        "@eslint/js": "^8.46.0",
         "@types/node": "*",
-        "@typescript-eslint/eslint-plugin": ">=6.1.0",
-        "@typescript-eslint/parser": ">=6.1.0",
-        "eslint": ">=8.45.0",
+        "@typescript-eslint/eslint-plugin": ">=6.2.1",
+        "@typescript-eslint/parser": ">=6.2.1",
+        "eslint": ">=8.46.0",
         "typescript": ">=3.3.1 <6.0.0"
     },
     "peerDependencies": {
-        "@eslint/js": "^8.45.0",
-        "@typescript-eslint/eslint-plugin": ">=6.1.0",
-        "@typescript-eslint/parser": ">=6.1.0",
-        "eslint": ">=8.45.0",
+        "@eslint/js": "^8.46.0",
+        "@typescript-eslint/eslint-plugin": ">=6.2.1",
+        "@typescript-eslint/parser": ">=6.2.1",
+        "eslint": ">=8.46.0",
         "typescript": ">=3.3.1 <6.0.0"
     },
     "peerDependenciesMeta": {
