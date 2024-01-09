@@ -34,15 +34,15 @@
     "devDependencies": {
         "@eslint/js": "^8.56.0",
         "@types/node": "*",
-        "@typescript-eslint/eslint-plugin": ">=6.18.0",
-        "@typescript-eslint/parser": ">=6.18.0",
+        "@typescript-eslint/eslint-plugin": ">=6.18.1",
+        "@typescript-eslint/parser": ">=6.18.1",
         "eslint": ">=8.56.0",
         "typescript": ">=3.3.1 <6.0.0"
     },
     "peerDependencies": {
         "@eslint/js": "^8.56.0",
-        "@typescript-eslint/eslint-plugin": ">=6.18.0",
-        "@typescript-eslint/parser": ">=6.18.0",
+        "@typescript-eslint/eslint-plugin": ">=6.18.1",
+        "@typescript-eslint/parser": ">=6.18.1",
         "eslint": ">=8.56.0",
         "typescript": ">=3.3.1 <6.0.0"
     },
