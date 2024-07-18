@@ -1,0 +1,14 @@
+name: Lint code
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - "**"
+
+jobs:
+  lint:
+    uses: stegripe/workflows/.github/workflows/pnpm-lint.yml@main
+    secrets: inherit
