@@ -14,7 +14,7 @@
     ],
     "repository": "https://github.com/stegripe/eslint-config",
     "license": "MIT",
-    "author": "Stegripe <admin@stegripe.org>",
+    "author": "Stegripe Development <support@stegripe.org>",
     "type": "module",
     "exports": {
         ".": "./index.js"
