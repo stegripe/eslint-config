@@ -12,10 +12,22 @@
         "typescript-eslint",
         "tslint"
     ],
-    "repository": "https://github.com/stegripe/eslint-config",
     "license": "MIT",
     "author": "Stegripe Development <support@stegripe.org>",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/stegripe/eslint-config.git"
+    },
+    "bugs": {
+        "url": "https://github.com/stegripe/eslint-config/issues"
+    },
+    "homepage": "https://github.com/stegripe/eslint-config#readme",
     "type": "module",
+    "scripts": {
+        "lint": "eslint .",
+        "lint:fix": "eslint . --fix",
+        "release": "pnpm publish --access public --no-git-checks"
+    },
     "exports": {
         ".": "./index.js"
     },
@@ -23,11 +35,6 @@
         "conf/*.js",
         "index.js"
     ],
-    "scripts": {
-        "lint": "eslint .",
-        "lint:fix": "eslint . --fix",
-        "release": "pnpm publish --access public --no-git-checks"
-    },
     "devDependencies": {
         "@stylistic/eslint-plugin": "^2.3.0",
         "@tsconfig/node-lts": "^20.1.3",
