@@ -1,7 +1,7 @@
 {
     "name": "@stegripe/eslint-config",
     "version": "1.0.0",
-    "description": "A forked ESLint shareable configuration that we used in our projects.",
+    "description": "An ESLint shareable configuration that we used in our projects.",
     "keywords": [
         "eslint",
         "eslintconfig",
