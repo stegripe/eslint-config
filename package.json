@@ -39,7 +39,7 @@
         "@stylistic/eslint-plugin": "^2.13.0",
         "@tsconfig/node-lts": "^22.0.1",
         "@types/node": "*",
-        "eslint": ">=9.23.0",
+        "eslint": ">=9.24.0",
         "eslint-config-prettier": "^9.1.0",
         "eslint-plugin-import-x": "^4.10.0",
         "eslint-plugin-jsdoc": "^50.6.9",
@@ -48,12 +48,12 @@
         "eslint-plugin-tsdoc": "^0.4.0",
         "eslint-plugin-unicorn": "^56.0.1",
         "globals": "^15.15.0",
-        "typescript": ">=5.8.2",
+        "typescript": ">=5.8.3",
         "typescript-eslint": ">=8.29.0"
     },
     "peerDependencies": {
         "@stylistic/eslint-plugin": "^2.13.0",
-        "eslint": ">=9.23.0",
+        "eslint": ">=9.24.0",
         "eslint-config-prettier": "^9.1.0",
         "eslint-plugin-import-x": "^4.10.0",
         "eslint-plugin-jsdoc": "^50.6.9",
@@ -62,7 +62,7 @@
         "eslint-plugin-tsdoc": "^0.4.0",
         "eslint-plugin-unicorn": "^56.0.1",
         "globals": "^15.15.0",
-        "typescript": ">=5.8.2",
+        "typescript": ">=5.8.3",
         "typescript-eslint": ">=8.29.0"
     }
 }
