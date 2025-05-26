@@ -24,8 +24,8 @@ importers:
         specifier: ^9.1.0
         version: 9.1.0(eslint@9.27.0)
       eslint-plugin-import-x:
-        specifier: ^4.13.1
-        version: 4.13.1(eslint@9.27.0)(typescript@5.8.3)
+        specifier: ^4.13.3
+        version: 4.13.3(eslint@9.27.0)(typescript@5.8.3)
       eslint-plugin-jsdoc:
         specifier: ^50.6.17
         version: 50.6.17(eslint@9.27.0)
@@ -513,8 +513,8 @@ packages:
     peerDependencies:
       eslint: '>=7.0.0'
 
-  eslint-import-context@0.1.4:
-    resolution: {integrity: sha512-x3+etvB5TPxjFIq2m4tTnpt/9Ekp5GZKzXNp5ExLaS7Qv9E5BVs/Td7jxSnRtSzrgTCExXZlc0MuOdSuDLURiQ==}
+  eslint-import-context@0.1.5:
+    resolution: {integrity: sha512-jalO1mLiEvTv0io0koz1AE4LwkHQxDBFLaSXWweWtJR0y/NC1yyxvU61Z54bghIFNeM1M4TvwRwVRhLunQJ3gw==}
     engines: {node: ^12.20.0 || ^14.18.0 || >=16.0.0}
     peerDependencies:
       unrs-resolver: ^1.0.0
@@ -531,8 +531,8 @@ packages:
     peerDependencies:
       eslint: '>=8'
 
-  eslint-plugin-import-x@4.13.1:
-    resolution: {integrity: sha512-Ua4HZBmG5TNr18q3Is+nT6mKCzNNpycqtv/+TkIK7E3w4LBlPlZI6vLwmDjXdIZtJPP2Z1Oh5+wksWwlcCjMpA==}
+  eslint-plugin-import-x@4.13.3:
+    resolution: {integrity: sha512-CDewJDEeYQhm94KGCDYiuwU1SdaWc/vh+SziSKkF7kichAqAFnQYtSYUvSwSBbiBjYLxV5uUxocxxQobRI9YXA==}
     engines: {node: ^18.18.0 || ^20.9.0 || >=21.1.0}
     peerDependencies:
       eslint: ^8.57.0 || ^9.0.0
@@ -1280,7 +1280,7 @@ snapshots:
       '@typescript-eslint/types': 8.32.1
       '@typescript-eslint/typescript-estree': 8.32.1(typescript@5.8.3)
       '@typescript-eslint/visitor-keys': 8.32.1
-      debug: 4.4.0
+      debug: 4.4.1
       eslint: 9.27.0
       typescript: 5.8.3
     transitivePeerDependencies:
@@ -1300,7 +1300,7 @@ snapshots:
     dependencies:
       '@typescript-eslint/typescript-estree': 8.32.1(typescript@5.8.3)
       '@typescript-eslint/utils': 8.32.1(eslint@9.27.0)(typescript@5.8.3)
-      debug: 4.4.0
+      debug: 4.4.1
       eslint: 9.27.0
       ts-api-utils: 2.1.0(typescript@5.8.3)
       typescript: 5.8.3
@@ -1315,11 +1315,11 @@ snapshots:
     dependencies:
       '@typescript-eslint/types': 8.19.1
       '@typescript-eslint/visitor-keys': 8.19.1
-      debug: 4.4.0
+      debug: 4.4.1
       fast-glob: 3.3.2
       is-glob: 4.0.3
       minimatch: 9.0.5
-      semver: 7.7.1
+      semver: 7.7.2
       ts-api-utils: 2.0.0(typescript@5.8.3)
       typescript: 5.8.3
     transitivePeerDependencies:
@@ -1567,7 +1567,7 @@ snapshots:
     dependencies:
       eslint: 9.27.0
 
-  eslint-import-context@0.1.4(unrs-resolver@1.7.2):
+  eslint-import-context@0.1.5(unrs-resolver@1.7.2):
     dependencies:
       get-tsconfig: 4.10.1
       stable-hash: 0.0.5
@@ -1589,13 +1589,13 @@ snapshots:
       eslint: 9.27.0
       eslint-compat-utils: 0.5.1(eslint@9.27.0)
 
-  eslint-plugin-import-x@4.13.1(eslint@9.27.0)(typescript@5.8.3):
+  eslint-plugin-import-x@4.13.3(eslint@9.27.0)(typescript@5.8.3):
     dependencies:
       '@typescript-eslint/utils': 8.32.1(eslint@9.27.0)(typescript@5.8.3)
       comment-parser: 1.4.1
       debug: 4.4.1
       eslint: 9.27.0
-      eslint-import-context: 0.1.4(unrs-resolver@1.7.2)
+      eslint-import-context: 0.1.5(unrs-resolver@1.7.2)
       eslint-import-resolver-node: 0.3.9
       is-glob: 4.0.3
       minimatch: 10.0.1
