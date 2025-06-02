@@ -43,13 +43,13 @@
         "eslint-config-prettier": "^9.1.0",
         "eslint-plugin-import-x": "^4.15.0",
         "eslint-plugin-jsdoc": "^50.7.1",
-        "eslint-plugin-n": "^17.18.0",
+        "eslint-plugin-n": "^17.19.0",
         "eslint-plugin-promise": "^7.2.1",
         "eslint-plugin-tsdoc": "^0.4.0",
         "eslint-plugin-unicorn": "^56.0.1",
         "globals": "^15.15.0",
         "typescript": ">=5.8.3",
-        "typescript-eslint": ">=8.33.0"
+        "typescript-eslint": ">=8.33.1"
     },
     "peerDependencies": {
         "@stylistic/eslint-plugin": "^2.13.0",
@@ -57,12 +57,12 @@
         "eslint-config-prettier": "^9.1.0",
         "eslint-plugin-import-x": "^4.15.0",
         "eslint-plugin-jsdoc": "^50.7.1",
-        "eslint-plugin-n": "^17.18.0",
+        "eslint-plugin-n": "^17.19.0",
         "eslint-plugin-promise": "^7.2.1",
         "eslint-plugin-tsdoc": "^0.4.0",
         "eslint-plugin-unicorn": "^56.0.1",
         "globals": "^15.15.0",
         "typescript": ">=5.8.3",
-        "typescript-eslint": ">=8.33.0"
+        "typescript-eslint": ">=8.33.1"
     }
 }
