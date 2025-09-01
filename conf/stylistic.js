@@ -71,8 +71,10 @@ export default [
                 "all",
                 {
                     nestedBinaryExpressions: false,
-                    enforceForArrowConditionals: false,
-                    enforceForNewInMemberExpressions: false
+                    ignoredNodes: [
+                        "ArrowFunctionExpression[body.type='ConditionalExpression']",
+                        "MemberExpression[object.type=NewExpression]"
+                    ]
                 }
             ],
             "stylistic/no-extra-semi": "warn",
@@ -96,7 +98,7 @@ export default [
             "stylistic/padded-blocks": ["warn", "never"],
             "stylistic/padding-line-between-statements": "warn",
             "stylistic/quote-props": ["warn", "as-needed"],
-            "stylistic/quotes": ["warn", "double", { avoidEscape: true, allowTemplateLiterals: false }],
+            "stylistic/quotes": ["warn", "double", { avoidEscape: true, allowTemplateLiterals: "never" }],
             "stylistic/rest-spread-spacing": ["error", "never"],
             "stylistic/semi": ["error", "always", { omitLastInOneLineBlock: false }],
             "stylistic/semi-spacing": ["error", { before: false, after: true }],
@@ -140,12 +142,10 @@ export default [
             "stylistic/jsx-equals-spacing": ["warn", "never"],
             "stylistic/jsx-first-prop-new-line": "warn",
             "stylistic/jsx-function-call-newline": "warn",
-            "stylistic/jsx-indent": ["error", 4],
             "stylistic/jsx-indent-props": ["error", 4],
             "stylistic/jsx-max-props-per-line": "warn",
             "stylistic/jsx-newline": "warn",
             "stylistic/jsx-one-expression-per-line": "warn",
-            "stylistic/jsx-props-no-multi-spaces": "warn",
             "stylistic/jsx-pascal-case": "warn",
             "stylistic/jsx-quotes": ["warn", "prefer-double"],
             "stylistic/jsx-self-closing-comp": "warn",
