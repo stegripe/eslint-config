@@ -351,7 +351,6 @@ export default [
             "unicorn/no-unnecessary-polyfills": "error",
             "unicorn/no-unreadable-array-destructuring": "error",
             "unicorn/no-unreadable-iife": "error",
-            "unicorn/no-unsafe-regex": "error",
             "unicorn/no-unused-properties": "warn",
             "unicorn/no-useless-fallback-in-spread": "error",
             "unicorn/no-useless-length-check": "error",
