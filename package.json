@@ -36,7 +36,7 @@
         "index.js"
     ],
     "devDependencies": {
-        "@stylistic/eslint-plugin": "^3.1.0",
+        "@stylistic/eslint-plugin": "^4.4.1",
         "@tsconfig/node-lts": "^22.0.2",
         "@types/node": "*",
         "eslint": ">=9.32.0",
@@ -52,7 +52,7 @@
         "typescript-eslint": ">=8.38.0"
     },
     "peerDependencies": {
-        "@stylistic/eslint-plugin": "^3.1.0",
+        "@stylistic/eslint-plugin": "^4.4.1",
         "eslint": ">=9.32.0",
         "eslint-config-prettier": "^10.1.8",
         "eslint-plugin-import-x": "^4.16.1",
