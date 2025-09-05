@@ -39,7 +39,7 @@
         "@stylistic/eslint-plugin": "^5.3.1",
         "@tsconfig/node-lts": "^22.0.2",
         "@types/node": "*",
-        "eslint": ">=9.34.0",
+        "eslint": ">=9.35.0",
         "eslint-config-prettier": "^10.1.8",
         "eslint-plugin-import-x": "^4.16.1",
         "eslint-plugin-jsdoc": "^51.4.1",
@@ -53,7 +53,7 @@
     },
     "peerDependencies": {
         "@stylistic/eslint-plugin": "^5.3.1",
-        "eslint": ">=9.34.0",
+        "eslint": ">=9.35.0",
         "eslint-config-prettier": "^10.1.8",
         "eslint-plugin-import-x": "^4.16.1",
         "eslint-plugin-jsdoc": "^51.4.1",
