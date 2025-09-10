@@ -47,7 +47,7 @@
         "eslint-plugin-promise": "^7.2.1",
         "eslint-plugin-tsdoc": "^0.4.0",
         "eslint-plugin-unicorn": "^60.0.0",
-        "globals": "^16.3.0",
+        "globals": "^16.4.0",
         "typescript": ">=5.9.2",
         "typescript-eslint": ">=8.43.0"
     },
@@ -61,7 +61,7 @@
         "eslint-plugin-promise": "^7.2.1",
         "eslint-plugin-tsdoc": "^0.4.0",
         "eslint-plugin-unicorn": "^60.0.0",
-        "globals": "^16.3.0",
+        "globals": "^16.4.0",
         "typescript": ">=5.9.2",
         "typescript-eslint": ">=8.43.0"
     }
