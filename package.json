@@ -37,7 +37,7 @@
     ],
     "devDependencies": {
         "@stylistic/eslint-plugin": "^5.5.0",
-        "@tsconfig/node-lts": "^22.0.2",
+        "@tsconfig/node-lts": "^22.0.3",
         "@types/node": "*",
         "eslint": ">=9.39.1",
         "eslint-config-prettier": "^10.1.8",
