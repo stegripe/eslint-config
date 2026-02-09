@@ -36,7 +36,7 @@
         "index.js"
     ],
     "devDependencies": {
-        "@stylistic/eslint-plugin": "^5.7.1",
+        "@stylistic/eslint-plugin": "^5.8.0",
         "@tsconfig/node-lts": "^24.0.0",
         "@types/node": "*",
         "eslint": ">=9.39.2",
@@ -49,10 +49,10 @@
         "eslint-plugin-unicorn": "^62.0.0",
         "globals": "^17.3.0",
         "typescript": ">=5.9.3",
-        "typescript-eslint": ">=8.54.0"
+        "typescript-eslint": ">=8.55.0"
     },
     "peerDependencies": {
-        "@stylistic/eslint-plugin": "^5.7.1",
+        "@stylistic/eslint-plugin": "^5.8.0",
         "eslint": ">=9.39.2",
         "eslint-config-prettier": "^10.1.8",
         "eslint-plugin-import-x": "^4.16.1",
@@ -63,6 +63,6 @@
         "eslint-plugin-unicorn": "^62.0.0",
         "globals": "^17.3.0",
         "typescript": ">=5.9.3",
-        "typescript-eslint": ">=8.54.0"
+        "typescript-eslint": ">=8.55.0"
     }
 }
