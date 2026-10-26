@@ -1,68 +1,69 @@
 {
-    "name": "@stegripe/eslint-config",
-    "version": "3.0.0",
-    "description": "An ESLint shareable configuration that we used in our projects.",
-    "keywords": [
-        "eslint",
-        "eslintconfig",
-        "eslint-config",
-        "lint",
-        "linter",
-        "typescript",
-        "typescript-eslint",
-        "tslint"
-    ],
-    "license": "MIT",
-    "author": "Stegripe Development <support@stegripe.org>",
-    "repository": {
-        "type": "git",
-        "url": "git+https://github.com/stegripe/eslint-config.git"
-    },
-    "bugs": {
-        "url": "https://github.com/stegripe/eslint-config/issues"
-    },
-    "homepage": "https://github.com/stegripe/eslint-config#readme",
-    "type": "module",
-    "scripts": {
-        "lint": "eslint .",
-        "lint:fix": "eslint . --fix",
-        "release": "pnpm publish --access public --no-git-checks"
-    },
-    "exports": {
-        ".": "./index.js"
-    },
-    "files": [
-        "conf/*.js",
-        "index.js"
-    ],
-    "devDependencies": {
-        "@stylistic/eslint-plugin": "^5.9.0",
-        "@tsconfig/node-lts": "^24.0.0",
-        "@types/node": "*",
-        "eslint": ">=9.39.2",
-        "eslint-config-prettier": "^10.1.8",
-        "eslint-plugin-import-x": "^4.16.1",
-        "eslint-plugin-jsdoc": "^62.6.1",
-        "eslint-plugin-n": "^17.24.0",
-        "eslint-plugin-promise": "^7.2.1",
-        "eslint-plugin-tsdoc": "^0.5.0",
-        "eslint-plugin-unicorn": "^63.0.0",
-        "globals": "^17.4.0",
-        "typescript": ">=5.9.3",
-        "typescript-eslint": ">=8.56.0"
-    },
-    "peerDependencies": {
-        "@stylistic/eslint-plugin": "^5.9.0",
-        "eslint": ">=9.39.2",
-        "eslint-config-prettier": "^10.1.8",
-        "eslint-plugin-import-x": "^4.16.1",
-        "eslint-plugin-jsdoc": "^62.6.1",
-        "eslint-plugin-n": "^17.24.0",
-        "eslint-plugin-promise": "^7.2.1",
-        "eslint-plugin-tsdoc": "^0.5.0",
-        "eslint-plugin-unicorn": "^63.0.0",
-        "globals": "^17.4.0",
-        "typescript": ">=5.9.3",
-        "typescript-eslint": ">=8.56.0"
-    }
+  "name": "@stegripe/eslint-config",
+  "version": "3.0.0",
+  "description": "An ESLint shareable configuration that we used in our projects.",
+  "keywords": [
+    "eslint",
+    "eslintconfig",
+    "eslint-config",
+    "lint",
+    "linter",
+    "typescript",
+    "typescript-eslint",
+    "tslint"
+  ],
+  "license": "MIT",
+  "author": "Stegripe Development <support@stegripe.org>",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stegripe/eslint-config.git"
+  },
+  "bugs": {
+    "url": "https://github.com/stegripe/eslint-config/issues"
+  },
+  "homepage": "https://github.com/stegripe/eslint-config#readme",
+  "type": "module",
+  "scripts": {
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "release": "pnpm publish --access public --no-git-checks",
+    "build": "node -e \"process.exit(0)\""
+  },
+  "exports": {
+    ".": "./index.js"
+  },
+  "files": [
+    "conf/*.js",
+    "index.js"
+  ],
+  "devDependencies": {
+    "@stylistic/eslint-plugin": "^5.9.0",
+    "@tsconfig/node-lts": "^24.0.0",
+    "@types/node": "*",
+    "eslint": ">=9.39.2",
+    "eslint-config-prettier": "^10.1.8",
+    "eslint-plugin-import-x": "^4.16.1",
+    "eslint-plugin-jsdoc": "^62.6.1",
+    "eslint-plugin-n": "^17.24.0",
+    "eslint-plugin-promise": "^7.2.1",
+    "eslint-plugin-tsdoc": "^0.5.0",
+    "eslint-plugin-unicorn": "^63.0.0",
+    "globals": "^17.4.0",
+    "typescript": ">=5.9.3",
+    "typescript-eslint": ">=8.56.0"
+  },
+  "peerDependencies": {
+    "@stylistic/eslint-plugin": "^5.9.0",
+    "eslint": ">=9.39.2",
+    "eslint-config-prettier": "^10.1.8",
+    "eslint-plugin-import-x": "^4.16.1",
+    "eslint-plugin-jsdoc": "^62.6.1",
+    "eslint-plugin-n": "^17.24.0",
+    "eslint-plugin-promise": "^7.2.1",
+    "eslint-plugin-tsdoc": "^0.5.0",
+    "eslint-plugin-unicorn": "^63.0.0",
+    "globals": "^17.4.0",
+    "typescript": ">=5.9.3",
+    "typescript-eslint": ">=8.56.0"
+  }
 }
